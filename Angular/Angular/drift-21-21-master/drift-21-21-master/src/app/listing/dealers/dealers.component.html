@@ -1,0 +1,24 @@
+
+<div class="container-flex box">
+    <iframe src="" frameborder="0"></iframe>
+    <div class="row">
+        <div class="col card " *ngFor="let dealer of dealers">
+           
+                <div>
+                    <img  class="image" [src]="dealer.image" alt="" height="80rem">
+                </div>
+                <div class="" >
+                    <span ngClass="name">{{dealer.name}}</span>
+
+                    <div ngClass="info"> <span ><mat-icon ngClass="star">star</mat-icon>{{dealer.rating}}</span>
+                        <div class="vr"></div>
+                        <span>{{dealer.deals}}</span>
+                    </div>
+               
+            </div>
+
+           
+
+        </div>
+    </div>
+</div>

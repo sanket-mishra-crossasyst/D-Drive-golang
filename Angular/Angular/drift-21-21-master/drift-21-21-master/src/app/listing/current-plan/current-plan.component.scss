@@ -1,0 +1,54 @@
+.section1{
+    margin: 3rem 0 0 1rem;
+    display:inline-block;
+    height: 100%;
+    justify-content: center;
+    color: rgb(228,224,234);
+}
+.vertical_rule{
+    margin: 2.5rem 0rem 0 0 ;
+    padding: 0;
+    width: 1px;
+    height: 8rem;
+    background-color: rgb(228,224,234);
+}
+.section2{
+    margin: 3rem 0 0 0;
+    display:inline-block;
+    height: 100%;
+    justify-content: center;
+    color: rgb(228,224,234);
+    text-align: center;
+}
+
+.name{
+font-weight: 650;
+font-size: 1.2rem;
+margin:2rem 0rem 0rem 2rem ;
+color: rgb(228,224,234);
+}
+
+.number{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.margin_top{
+    margin-top: 1rem;
+}
+
+.info{
+    margin-top: 0.5rem;
+    font-weight: 500;
+}
+
+.button{
+    border: none;
+    border-radius: 0.2rem;
+    background-color: rgb(251,68,132);
+    margin: 1rem;
+    padding: 0.4rem 0.6rem 0.35rem 0.6rem;
+    color: rgb(228,224,234);
+}
+
+

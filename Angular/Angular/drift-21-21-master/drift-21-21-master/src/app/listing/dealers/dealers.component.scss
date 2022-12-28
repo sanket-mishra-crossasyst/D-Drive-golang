@@ -1,0 +1,42 @@
+.box{
+    width: 85rem;
+    margin-top:-9rem ;
+    margin-bottom: 0.5rem;
+}
+.card{
+    text-align: center;
+    align-items: center;
+    border:0 0 0 0 ;
+   
+}
+.image{
+    border-radius: 5rem;
+    align-self: center;
+    display:inline-block;
+    margin: 1rem 0 0.8rem 0;
+    
+}
+
+.name{
+   font-weight: 440;
+   font-size: 0.9rem;
+   color:gray;
+}
+
+.star{
+    color:rgb(243, 184, 56);  
+    font-size: 0.9rem; 
+    margin: 0 0 -0.7rem 0;
+}
+
+.info{
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin: 0rem 0 0 0;
+    color: grey;
+}
+
+.vr{
+    padding-left:0.1rem;
+    margin: 0 0.5rem -0.18rem 0.5rem;
+}

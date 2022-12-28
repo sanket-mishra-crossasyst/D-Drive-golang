@@ -1,0 +1,40 @@
+<div class="container-flex">
+  <div class="row">
+    <div ngClass="logo col-lg-2"><img [src]="logo" alt="" height="25rem"></div>
+    <div class="col-lg-5 mt-3">
+
+      <form>
+        <!-- <input type="text" class="search-in" placeholder="Search in app..."> -->
+        <div class="input-group mb-3">
+          <input type="text" class="search-in" placeholder="Search in app..." aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+          <span class="" id="basic-addon2">
+            <select class="search-button" aria-label="Default select example">
+              <option selected>Category</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select></span>
+        </div>
+      </form>
+    </div>
+    <div class="col-lg-3">
+      <ul>
+        <li><mat-icon>apps</mat-icon><span ngClass="app"></span></li>
+        <li><mat-icon>email_uotline</mat-icon></li>
+        <li><mat-icon>notification_important</mat-icon></li>
+        <li> EN</li>
+      </ul>
+    </div>
+    <div class="col-lg-2">
+      <div class="dropdown">
+        <button class="dropbtn"><img ngClass="image" [src]="image" alt="img" height="40rem">Sanket Mishra</button>
+        <div class="dropdown-content">
+          <a href="#">Account</a>
+          <a href="#">Setting</a>
+          <a href="#">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

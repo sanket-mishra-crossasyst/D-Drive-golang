@@ -1,0 +1,53 @@
+
+.example-container {
+    width: 150%;
+    height: 100%; 
+  }
+  
+  .example-sidenav {
+    padding: 1rem;
+    background-color:rgb(255, 255, 255) ;
+    color: rgb(176,168,204);
+  }
+
+  .position{
+position:sticky;
+display:flexbox;
+  }
+
+ .hamburger{
+    color: rgb(196,197,224);
+    margin-top: 1rem;
+    margin-left: 0.3rem;
+    display:inline-block;
+ }
+
+ .header{
+    background-color:rgb(253, 234, 234);
+    width: 100%;
+    height: 3rem;
+    position: sticky;
+ }
+
+ .margin{
+   padding: 2rem;
+ }
+
+ .icons-sidenav{
+    height: 100%;
+    width: 1rem;
+    background-color:rgb(35,26,41) ;
+    color: rgb(176,168,204);
+ }
+
+ .overflow{
+  overflow: hidden;
+  display: block;
+}
+
+.width{
+  width: 100%;
+}
+
+
+

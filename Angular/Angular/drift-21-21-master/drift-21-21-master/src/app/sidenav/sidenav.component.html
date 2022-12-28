@@ -1,0 +1,41 @@
+
+  <mat-nav-list >
+  <div>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+      Main
+    </a>
+    <mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <mat-icon class="material-icons" routerLinkActive="list-item-active">speed</mat-icon>
+            Dashboard
+          </mat-panel-title>
+        </mat-expansion-panel-header>
+        <p mat-list-item   routerLinkActive="list-item-active" routerLink="/listing">Listing</p>
+        <p mat-list-item  routerLinkActive="list-item-active" routerLink="/real-estate">Real State</p>
+        <p mat-list-item  routerLinkActive="list-item-active">Crypto</p>
+        <p mat-list-item  routerLinkActive="list-item-active">CRM</p>
+      </mat-expansion-panel>
+    </mat-accordion>
+      <mat-expansion-panel hideToggle>
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            <mat-icon class="material-icons"  routerLink="/home">toc</mat-icon>
+            Widgets
+          </mat-panel-title>
+        </mat-expansion-panel-header >
+        <p mat-list-item routerLinkActive="list-item-active">Classic</p>
+        <p mat-list-item routerLinkActive="list-item-active">Modern</p>
+      </mat-expansion-panel>
+  
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/metrics"><mat-icon class="material-icons">insights</mat-icon>Metrics </a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/layouts"> <mat-icon>newspaper</mat-icon> Layouts </a>
+    <mat-divider ></mat-divider>
+    <a mat-list-item> Pre-Build App</a>
+    <a mat-list-item  routerLinkActive="list-item-active" routerLink="/task-manager"> <mat-icon>task</mat-icon> Task Manager </a>
+    <a mat-list-item  routerLinkActive="list-item-active" routerLink="/mail-app"> <mat-icon>mail</mat-icon> Mail App </a>
+    <a mat-list-item  routerLinkActive="list-item-active" routerLink="/contact-app"> <mat-icon>call</mat-icon> Contact App </a>
+    <a mat-list-item  routerLinkActive="list-item-active" routerLink="/chat-app"> <mat-icon>chat</mat-icon> Chat App </a>
+  </div>
+  </mat-nav-list>

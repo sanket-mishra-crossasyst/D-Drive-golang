@@ -1,0 +1,19 @@
+
+<div class="container-fluid header">
+  <div class="row">
+    <div class="col-lg-1" ngClass="messages">
+     <div><mat-icon ngClass="mail-icon">mail</mat-icon>Messages</div>
+    </div>
+    <div class="col-lg-11">
+     <app-mail-header></app-mail-header>
+    </div>
+  </div>
+</div>
+  
+
+
+    <app-mail-sidenav></app-mail-sidenav>
+
+  <mat-drawer-content class="margin" >
+        <router-outlet ngClass="overflow"></router-outlet>
+</mat-drawer-content>

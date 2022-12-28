@@ -1,0 +1,17 @@
+<h2 ngClass="mt-2 name">Recent Activities</h2>
+
+<div ngClass="mt-4" *ngFor="let day of activities">
+    <span ngClass="day">{{day.day}}</span>
+<div class="container" >
+    <div class="row mt-4" *ngFor="let activitie of day.infoToday;">
+        <div class="col-lg-2" >
+           <img ngClass="image" [src]="activitie.image" alt="image">
+        </div>
+        <div class="col-lg-10">
+            <span>{{activitie.info}}</span>
+
+        </div>
+    </div>
+</div>
+
+</div>

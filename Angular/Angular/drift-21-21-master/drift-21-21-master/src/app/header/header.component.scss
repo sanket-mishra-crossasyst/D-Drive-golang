@@ -1,0 +1,112 @@
+.logo{
+  display:inline-block;
+  margin: 1rem 0 0 -3rem;
+}
+
+.search-in{
+  margin-left: -2rem;
+  height: 1.5rem;
+  width: 17rem;
+  border: 0;
+  border-color: white;
+  border-radius: 0.3rem 0 0 0.3rem ;
+  display:inline-block;
+}
+
+.search-button{
+color:white;
+  text-align: center;
+  height: 1.5rem;
+  border: 0;
+  width: 7.5rem;
+  border-radius: 0 0.3rem 0.3rem 0;
+  background-color: rgb(251,68,132);
+}
+ul{
+  display: flex;
+	margin: 0 0rem 0 0;	
+	// justify-content: space-between;
+	justify-self:flex-end;
+  border: none;
+  border-radius: 0.4rem .4rem 0 0;
+}
+
+li{
+  padding: 0.45rem 0.7rem 0.45rem 0.7rem;
+  font-size: 0.9rem;
+  list-style: none;
+  cursor: pointer;
+  color: rgb(196,197,224);;
+  margin: 1rem 0 0 0;
+  text-decoration: none;
+  bottom: none;
+}
+
+.app{
+  margin-top: -0.5rem;
+}
+
+.image{
+  border-radius: 5rem;
+  margin-right: 0.5rem;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: rgb(83,44,171);
+  color: rgb(235, 235, 239);
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dropbtn:hover{
+  opacity:1rem ;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;  
+  display: inline-block;
+  margin: 0.3rem 0 0 0rem;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(83,44,171);
+}
+
+
+
+
+
+
+

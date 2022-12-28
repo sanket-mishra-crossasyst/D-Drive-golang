@@ -1,0 +1,16 @@
+
+<div class="container-flex ">
+    <div class="row">     
+        <div class="col-lg-3" *ngFor="let card of cards">
+                <mat-card class="card">
+                    <mat-card-content><span class="card_name">{{card.name}}</span></mat-card-content>
+                    <mat-card-content><span class="card_number">{{card.number}}</span><span class="card_percentage">{{card.percentage}}</span><span class="card_status">{{card.status}}</span></mat-card-content>
+                    
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-label="Basic example" [ngStyle]="{'width.%':card.width, 'background-color':card.color}" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div >  
+                  </mat-card>
+            </div>
+        </div>
+       
+        </div>
