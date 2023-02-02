@@ -1,0 +1,15 @@
+AWS (2-2)
+data compute 
+ec2
+ondemand 
+faas lambda
+serverless module 
+cold boot time 
+java not used to write lambda (bitecode related not allowed in lambda)
+lambda is used so only paid for no. of hites are there
+
+data storage
+dynomo db AWS
+rds 
+arora 
+
